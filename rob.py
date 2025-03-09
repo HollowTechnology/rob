@@ -7,6 +7,7 @@ parser.add_argument("url", help="File URL or YouTube video URL")
 parser.add_argument("-q", "--quality", help="Video quality (e.g., 720, 480, best, worst)(to be used with -v)", default="best")
 parser.add_argument("-f", "--file", help="Download a normal file instead of a video", action="store_true")
 parser.add_argument("-v", "--video", help="Download a Youtube video", action="store_true")
+parser.add_argument("-u", "--update", help="Updates rob", action="store_true")
 
 args = parser.parse_args()
 
@@ -28,5 +29,9 @@ elif args.video:
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([args.url])
-else:
+elif args.update:
+    # Updates rob
+    os.system(f'curl -o "rob-updater.bat" "https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat"')
+    os.system(f'rob-updater.bat')
+else: 
     print("Please provide a flag, -v for video, or -f for a normal file.")
