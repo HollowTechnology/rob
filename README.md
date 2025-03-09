@@ -18,7 +18,7 @@ usage:
 url - has to be included, doesn't have to be specified.
 ```
 ## Example
-Video Example
+Video Example<br>
 ![rob-video-example](assets/screenshots/rob-video-example.png)
+![rob-video-example](assets/screenshots/rob-file-example.png)<br>
 File Example
-![rob-video-example](assets/screenshots/rob-file-example.png)
