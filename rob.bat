@@ -1,2 +1,2 @@
 @echo off
-python C:\rob\rob.py %*
+python rob.py %*
