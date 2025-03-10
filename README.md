@@ -34,8 +34,8 @@ download: `https://bootstrap.pypa.io/get-pip.py`<br>
 then, run `py get-pip.py`<br>
 4. yt-dlp: using pip, run `pip install yt-dlp`<br>
 
-Install:
-1: Get the latest release from clicking [here](https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat) or<br>
+Install:<br>
+1: Get the latest release from clicking [here](https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat)<br>or<br>
 run: `curl https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat`<br>
 2: Run `rob-installer.bat` as administrator<br><br>
 
