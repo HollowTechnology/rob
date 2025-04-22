@@ -31,7 +31,7 @@ elif args.video:
         ydl.download([args.url])
 elif args.update:
     # Updates rob
-    os.system(f'curl -o "rob-updater.bat" "https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat"')
+    os.system(f'curl -o https://github.com/HollowTechnology/rob/releases/latest/download/rob-installer.bat')
     os.system(f'rob-updater.bat')
 else: 
     print("Please provide a flag, -v for video, or -f for a normal file.")
